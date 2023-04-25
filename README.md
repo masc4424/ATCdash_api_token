@@ -107,5 +107,5 @@ now open your browser and go to http://127.0.0.1:8000/
 
 
 # API
-  Use this url for API: http://127.0.0.1:8000/users/
+  Use this url for testing and Generating API: http://127.0.0.1:8000/api_users/
   GET and POST response API through Postman OR your choice of API platform.

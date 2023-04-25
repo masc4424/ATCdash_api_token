@@ -15,20 +15,5 @@ In summary, the project I have created is a responsive dashboard that monitors v
 2. Extract the file as "Extract to 'ATCdash_api_token\'"
 3. Open the extracted folder into your IDE (Pycharm).
 4. Add a new virtual environment to this project (venv).
-5. Install the requirements.
+5. Install the requirements from requirements.txt.
 
-```bash
-pip install django
-```
-```bash
-pip install django-allauth
-```
-```bash
-pip install djangorestframework
-```
-```bash
-pip install djangorestframework-simplejwt
-```
-```bash
-pip install pillow
-```

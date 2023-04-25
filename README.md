@@ -17,3 +17,13 @@ In summary, the project I have created is a responsive dashboard that monitors v
 4. Add a new virtual environment to this project (venv).
 5. Install the requirements from requirements.txt.
 
+OR,
+
+Clone this Project from this link.
+
+```bash
+https://github.com/masc4424/ATCdash_api_token.git
+```
+
+### Inside project
+

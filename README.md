@@ -14,10 +14,10 @@ In summary, the project I have created is a responsive dashboard that monitors v
 ## Installation
 
 ### Requirements
-#### 1. Python v3
-#### 2. Django   
-#### 3. MySQL(recommended), PostgreSQL, Oracle Database and SQLite  
-#### 4. POSTMAN (recommended) OR Swagger - API Call
+1. Python v3
+2. Django   
+3. MySQL(recommended), PostgreSQL, Oracle Database and SQLite  
+4. POSTMAN (recommended) OR Swagger - API Call
 
 1. Download the Project as .zip file
 2. Extract the file as "Extract to 'ATCdash_api_token\'"

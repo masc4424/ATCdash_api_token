@@ -1,5 +1,7 @@
 # ATCdash_api_token
 
+Developed solely for support team work purposes, this project is part of Adamas Tech Consultancy
+
 ## About the Project
 The project I have created is a responsive dashboard that aims to monitor various E-commerce segments. These segments include Payment and Registration, which are vital aspects of any E-commerce platform. By monitoring these segments, the dashboard can quickly identify any issues or glitches that might arise and ensure that customers can complete their transactions seamlessly.
 
@@ -11,10 +13,24 @@ In summary, the project I have created is a responsive dashboard that monitors v
 
 ## Installation
 
+### Requirements
+#### 1. Python v3
+#### 2. Django   
+#### 3. MySQL(recommended), PostgreSQL, Oracle Database and SQLite  
+#### 4. POSTMAN (recommended) OR Swagger - API Call
+
 1. Download the Project as .zip file
 2. Extract the file as "Extract to 'ATCdash_api_token\'"
 3. Open the extracted folder into your IDE (Pycharm).
-4. Add a new virtual environment to this project (venv).
+4. Add a new virtual environment to this project (venv). to create venv follow the below commands and copy and paste to your IDE terminal.
+```bash
+python -m venv venv
+```
+now to activate venv
+```bash
+cd venv/Scripts/activate.ps1
+```
+
 5. Install the requirements from requirements.txt.
 
 OR,
@@ -89,6 +105,7 @@ python manage.py runserver
 
 now open your browser and go to http://127.0.0.1:8000/
 
-# Api
 
-
+# API
+  Use this url for API: http://127.0.0.1:8000/users/
+  GET and POST response API through Postman OR your choice of API platform.

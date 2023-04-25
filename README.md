@@ -26,4 +26,69 @@ https://github.com/masc4424/ATCdash_api_token.git
 ```
 
 ### Inside project
+Now when you open this project inside your preffered IDE (Pycharm) you need to make some changes to the files.
+
+settings.py
+
+``` bash
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'atcdash_api_token',
+        'USER': 'root',
+        'PASSWORD': 'asd',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+    }
+}
+```
+
+change the database 
+
+Engine, Name, user, password, to your database type 
+
+```bash
+DATABASES = {
+    'default': {
+        'ENGINE': '<YOUR DB ENGINE>',
+        'NAME': '<YOUR DB NAME>',
+        'USER': '<YOUR USER NAME>',
+        'PASSWORD': '<YOUR PASSWORD>',
+        'HOST': '127.0.0.1', <You can also use 'localhost'>
+        'PORT': '3306', <this is the localhost port>
+    }
+}
+```
+
+after this run these commands in your IDE terminal 
+
+go to the project directory in this project write 
+
+```bash
+cd dashboard
+```
+
+```bash
+python manage.py makemigrations
+```
+```bash
+python manage.py maigrate
+```
+
+Now you can add a superuser(admin) using this command "python manage.py createsuperuser" you can add username password and email address to you database which can help you to access adminpanel also you can login inside the page.
+
+```bash
+python manage.py createsuperuser
+```
+
+Now you can run the server.
+
+```bash
+python manage.py runserver
+```
+
+now open your browser and go to http://127.0.0.1:8000/
+
+# Api
+
 

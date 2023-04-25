@@ -42,8 +42,8 @@ urlpatterns = [
          name='password_reset_complete'),
 
     # api
-    path('users/', UserList.as_view(), name='user-list'),
-    path('users/<int:pk>/', UserDetail.as_view(), name='user-detail'),
+    path('api_users/', UserList.as_view(), name='user-list'),
+    path('api_users/<int:pk>/', UserDetail.as_view(), name='user-detail'),
 
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
 

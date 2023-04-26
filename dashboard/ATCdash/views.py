@@ -52,14 +52,7 @@ def log_out(request):
     else:
         return redirect('dashboard')
 
-
-def my_view(request):
-    context = {
-        'user': request.user
-    }
-    return render(request, 'my_template.html', context)
-
-
+    
 def generate_profile_image(request):
     # Get user's first and last name
     first_name = request.user.first_name
